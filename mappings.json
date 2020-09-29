@@ -9,7 +9,7 @@
         "LaunchTemplateVersion": {
           "properties": {
             "content": {
-              "type": "long",
+              "type": "text",
               "fields": {
                 "keyword": {
                   "type": "keyword",
