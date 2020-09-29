@@ -1,0 +1,31 @@
+{
+  "numeric_detection": false,
+  "properties": {
+    "apiVersion": {
+      "type": "text"
+    },
+    "requestParameters": {
+      "properties": {
+        "LaunchTemplateVersion": {
+          "properties": {
+            "content": {
+              "type": "long",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "tag": {
+              "type": "long"
+            }
+          }
+        }
+      }
+    },
+    "requestParameters.limit": {
+      "type": "long"
+    }
+  }
+}
